@@ -38,3 +38,4 @@ Our project intends that the tasks of the Department of Financial and Material R
 > - [February 14th 2022](./First%20increment/Binnacles/14%20feb%202022.md "Click Aquí")
 > - [February 15th 2022](./First%20increment/Binnacles/15%20feb%202022.md "Click Aquí")
 > - [February 16th 2022](./First%20increment/Binnacles/16%20feb%202022.md "Click Aquí")
+> - [February 23th 2022](./First%20increment/Binnacles/23%20feb%202022.md "Click Aquí")
