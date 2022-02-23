@@ -4,9 +4,13 @@ Based on the MoSCow software requirements prioritization technique:
 
 ## Must have:
 
-- Access to the system must be controlled and will be only for permitted users with the email provided under the institution's domain.
+- ### 1.- Login
 
-- The software must be able to generate an input voucher that allows adding new items
+  Access to the system must be controlled and will be only for permitted users with the email provided under the institution's domain.
+
+- ### 2.- Generate an input voucher
+
+  The software must be able to generate an input voucher that allows adding new items
   to the inventory, this voucher must contain the fields of:
 
   - Warehouse receipt report number
@@ -25,7 +29,9 @@ Based on the MoSCow software requirements prioritization technique:
   - Signature of the general manager
   - Signature of the warehouse manager
 
-- The software must be able to generate an output voucher each time an inventory item needs to be removed from the inventory, this voucher must contain the following fields:
+- ### 3.- Generate an output voucher
+
+  The software must be able to generate an output voucher each time an inventory item needs to be removed from the inventory, this voucher must contain the following fields:
 
   - Requesting area
   - Date
@@ -41,7 +47,9 @@ Based on the MoSCow software requirements prioritization technique:
   - Signature of the warehouse manager
   - Signature of conformity
 
-- The software must be able to output a current stock table, containing the fields:
+- ### 4.- Generate a current stock table
+
+  The software must be able to output a current stock table, containing the fields:
 
   - Item number
   - Item name
@@ -49,7 +57,9 @@ Based on the MoSCow software requirements prioritization technique:
   - Unit type
   - Number of stocks
 
-- The software must be able to issue a general summary of inputs and outputs of a specific product containing the fields of:
+- ### 5.- Generate a summary of a specific product
+
+  The software must be able to issue a general summary of inputs and outputs of a specific product containing the fields of:
 
   - Warehouse card number
   - Item name
@@ -69,7 +79,9 @@ Based on the MoSCow software requirements prioritization technique:
   - Unit cost per item
   - Average cost per item
 
-- The software must be able to issue a monthly summary of inputs and outputs of all registered products, containing the following fields:
+  - ### 6.- Generate a monthly summary of the stock
+
+  The software must be able to issue a monthly summary of inputs and outputs of all registered products, containing the following fields:
 
   - Item number
   - Item name
