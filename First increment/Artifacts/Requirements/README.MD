@@ -8,6 +8,8 @@ Based on the MoSCow software requirements prioritization technique:
 
   Access to the system must be controlled and will be only for permitted users with the email provided under the institution's domain.
 
+  [Use case](./Use%20case%20-%20Login.jpg "Go to the use case")
+
 - ### 2.- Generate an input voucher
 
   The software must be able to generate an input voucher that allows adding new items
@@ -29,6 +31,8 @@ Based on the MoSCow software requirements prioritization technique:
   - Signature of the general manager
   - Signature of the warehouse manager
 
+  [Use case](./Use%20case%20-%20Generate%20an%20input%20voucher.jpg "Go to the use case")
+
 - ### 3.- Generate an output voucher
 
   The software must be able to generate an output voucher each time an inventory item needs to be removed from the inventory, this voucher must contain the following fields:
@@ -47,6 +51,8 @@ Based on the MoSCow software requirements prioritization technique:
   - Signature of the warehouse manager
   - Signature of conformity
 
+  [Use case](./Use%20case%20-%20Generate%20an%20output%20voucher.jpg "Go to the use case")
+
 - ### 4.- Generate a current stock table
 
   The software must be able to output a current stock table, containing the fields:
@@ -56,6 +62,8 @@ Based on the MoSCow software requirements prioritization technique:
   - Article key
   - Unit type
   - Number of stocks
+
+  [Use case](./Use%20case%20-%20Generate%20a%20current%20stock%20table.jpg "Go to the use case")
 
 - ### 5.- Generate a summary of a specific product
 
@@ -79,6 +87,8 @@ Based on the MoSCow software requirements prioritization technique:
   - Unit cost per item
   - Average cost per item
 
+  [Use case](./Use%20case%20-%20Generate%20a%20summary%20of%20a%20specific%20product.jpg "Go to the use case")
+
   - ### 6.- Generate a monthly summary of the stock
 
   The software must be able to issue a monthly summary of inputs and outputs of all registered products, containing the following fields:
@@ -88,6 +98,8 @@ Based on the MoSCow software requirements prioritization technique:
   - Article key
   - Unit type
   - Number of stocks
+
+  [Use case](./Use%20case%20-%20Generate%20a%20monthly%20summary%20of%20the%20stock.jpg "Go to the use case")
 
 ## Should have:
 
