@@ -2,7 +2,7 @@
 
 Our project intends that the tasks of the Department of Financial and Material Resources of the Centro de Capacitación para el Trabajo Industrial No. 50 become an automated and simple process through warehouse management software that allows them to generate periodic reports of inputs and outputs.
 
-- [Subscribe to the project](https://github.com/AdjanyArmenta/Bagan/subscription "Recibe todas las notificaciones")
+[Subscribe to the project 💫](https://github.com/AdjanyArmenta/Bagan/subscription "Recibe todas las notificaciones")
 
 ## Team:
 
@@ -26,7 +26,7 @@ Our project intends that the tasks of the Department of Financial and Material R
 
 [Go to the requirements section](./First%20increment/Artifacts/Requirements)
 
-## Our development process
+## About our development process
 
 - [Our development process](./First%20increment/Documentation "Ir a nuestro proceso de desarrollo")
 - [Our contribution tracker](./First%20increment/Artifacts/Contribution%20tracker "Ir al tracker")
