@@ -1,7 +1,5 @@
 # About our process
 
-# Proceso de desarrollo
-
 <p>
     <img src="https://i.imgur.com/I5HiukV.png" alt="Manhattan" height="510px" />
 </p>
