@@ -15,21 +15,16 @@ Based on the MoSCow software requirements prioritization technique:
   The software must be able to generate an input voucher that allows adding new items
   to the inventory, this voucher must contain the fields of:
 
-  - Warehouse receipt report number
   - Store of origin
   - Date of preparation
   - Invoice No.
   - Starting No.
-  - Product description
-  - Product Quantity
+  - Item name
+  - Item Quantity
+  - Warehouse number
   - Unit type
   - Unit price
   - Total price
-  - Remarks
-  - Total objects
-  - Signature of the person who prepared the entry voucher
-  - Signature of the general manager
-  - Signature of the warehouse manager
 
   [Use case](./Use%20case%20-%20Generate%20an%20input%20voucher.jpg "Go to the use case")
 
@@ -43,13 +38,10 @@ Based on the MoSCow software requirements prioritization technique:
   - Article key
   - Quantity requested
   - Unit type
-  - Product description
+  - Item description
   - Quantity delivered
   - Unit price
   - Total
-  - Signature of the person in charge of the requesting area
-  - Signature of the warehouse manager
-  - Signature of conformity
 
   [Use case](./Use%20case%20-%20Generate%20an%20output%20voucher.jpg "Go to the use case")
 
@@ -69,22 +61,13 @@ Based on the MoSCow software requirements prioritization technique:
 
   The software must be able to issue a general summary of inputs and outputs of a specific product containing the fields of:
 
-  - Warehouse card number
   - Item name
   - Article key
+  - Starting No. 
   - Warehouse number
-  - Locker number
   - Unit type
-  - Revised limits
-  - Minimum number of products in stock
-  - Maximum products in stock
-  - Date
-  - Invoice number
-  - Reference number
-  - Number of input units
-  - Number of output units
   - Number of units in stock
-  - Unit cost per item
+  - Last unit cost per item
   - Average cost per item
 
   [Use case](./Use%20case%20-%20Generate%20a%20summary%20of%20a%20specific%20product.jpg "Go to the use case")
