@@ -34,6 +34,8 @@ In search of managing progress and activities in an optimal way, the development
 - Two progress review sessions will be held on Monday afternoons and Wednesday mornings. This will be part of the quality control. Mondays mark the beginning of a new and the end of an old sprint. 
 - The client won't be part of the development process due to the time discrepancy, however, communication will be constant via WhatsApp.
 
+### More details: 
+
 - [Our development process](./First%20increment/Documentation "Ir a nuestro proceso de desarrollo")
 - [Our contribution tracker](./First%20increment/Artifacts/Contribution%20tracker "Ir al tracker")
 
@@ -46,5 +48,5 @@ In search of managing progress and activities in an optimal way, the development
 > - [February 16th 2022](./First%20increment/Binnacles/16%20feb%202022.md "Click Aquí")
 > - [February 21th 2022](./First%20increment/Binnacles/21%20feb%202022.md "Click Aquí")
 > - [February 23th 2022](./First%20increment/Binnacles/23%20feb%202022.md "Click Aquí")
-> - [March 9th 2022](./First%20increment/Binnacles/7%20mar%202022.md "Click Aquí")
+> - [March 7th 2022](./First%20increment/Binnacles/7%20mar%202022.md "Click Aquí")
 > - [March 9th 2022](./First%20increment/Binnacles/9%20mar%202022.md "Click Aquí")
