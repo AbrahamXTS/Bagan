@@ -43,7 +43,7 @@ Based on the MoSCow software requirements prioritization technique:
   - Unit price
   - Total
 
-  [Use case](./Use%20case%20-%20Generate%20an%20output%20voucher.jpg "Go to the use case")
+  [Use case](./Use%20case%20-%20Generate%20an%20output%20voucher.pdf "Go to the use case")
 
 - ### 4.- Generate a current stock table
 
@@ -55,7 +55,7 @@ Based on the MoSCow software requirements prioritization technique:
   - Unit type
   - Number of stocks
 
-  [Use case](./Use%20case%20-%20Generate%20a%20current%20stock%20table.jpg "Go to the use case")
+  [Use case](./Use%20case%20-%20Generate%20a%20current%20stock%20table.pdf "Go to the use case")
 
 - ### 5.- Generate a summary of a specific product
 
@@ -70,7 +70,7 @@ Based on the MoSCow software requirements prioritization technique:
   - Last unit cost per item
   - Average cost per item
 
-  [Use case](./Use%20case%20-%20Generate%20a%20summary%20of%20a%20specific%20product.jpg "Go to the use case")
+  [Use case](./Use%20case%20-%20Generate%20a%20summary%20of%20a%20specific%20product.pdf "Go to the use case")
 
   - ### 6.- Generate a monthly summary of the stock
 
