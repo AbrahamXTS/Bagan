@@ -55,7 +55,7 @@ Based on the MoSCow software requirements prioritization technique:
   - Unit type
   - Number of stocks
 
-  [Use case](./Use%20case%20-%20Generate%20a%20current%20stock%20table.jpg "Go to the use case")
+  [Use case](./Use%20case%20-%20Generate%20a%20current%20stock%20table.pdf "Go to the use case")
 
 - ### 5.- Generate a summary of a specific product
 
