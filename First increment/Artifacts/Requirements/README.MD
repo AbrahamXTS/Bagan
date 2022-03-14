@@ -26,7 +26,7 @@ Based on the MoSCow software requirements prioritization technique:
   - Unit price
   - Total price
 
-  [Use case](./Use%20case%20-%20Generate%20an%20input%20voucher.jpg "Go to the use case")
+  [Use case](./Use%20case%20-%20Generate%20an%20input%20voucher.pdf "Go to the use case")
 
 - ### 3.- Generate an output voucher
 
