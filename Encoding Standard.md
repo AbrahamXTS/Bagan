@@ -16,6 +16,7 @@
       return element;
     }
     ```
+
 + Use `//` for single line comments. Place single line comments on a newline above the subject of the comment. Put an empty line before the comment unless it’s on the first line of a block. 
 
   ```javascript
@@ -35,14 +36,17 @@
       return type;
     }
     ```
+
 ## Whitespace 
 
 + Uses an indentation set by a tabulation 
+
     ```javascript
     function foo() {
     ∙∙∙∙let name;
     }
     ```
+
 + Place 1 space before the opening parenthesis in control statements (`if`, `while` etc.). Place no space between the argument list and the function name in function calls and declarations. 
 
     ```javascript
@@ -54,21 +58,26 @@
     console.log('Swooosh!');
     }
     ```
+
 ## Functions and variables
 
 + Avoid single letter names. Be descriptive with your naming.
+
     ```javascript
     function query() {
       // ...
     }
     ```
+
 + Use camelCase when naming objects, functions, and instances.
 
     ```javascript
     const thisIsMyObject = {};
     function thisIsMyFunction() {}
     ```
+
 + Use PascalCase only when naming constructors or classes.
+    
     ```javascript
     class User {
       constructor(options) {
@@ -79,6 +88,8 @@
     const good = new User({
       name: 'yup',
     });
+    ```
+    
 + If the property/method is a `boolean`, use `isVal()` or `hasVal()`. In general, use a verb at the beginning of a function name.
 
     ```javascript

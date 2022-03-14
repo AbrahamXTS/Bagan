@@ -28,8 +28,19 @@ Our project intends that the tasks of the Department of Financial and Material R
 
 ## About our development process
 
-- [Our development process](./First%20increment/Documentation "Ir a nuestro proceso de desarrollo")
-- [Our contribution tracker](./First%20increment/Artifacts/Contribution%20tracker "Ir al tracker")
+In search of managing progress and activities in an optimal way, the development process of our project is based 80% on the SCRUM framework and 20% on the Kanban framework. We made certain adaptations to the framework due to the context of our team and limited time we had to realise an ideal SCRUM project. These adaptations are mentioned below:
+
+- We decided to focus on making the system requirements to be implemented as precise as possible, thus replacing the use of user stories.
+
+- Two progress review sessions will be held on Monday afternoons and Wednesday mornings. This will be part of the quality control. Mondays mark the beginning of a new and the end of an old sprint. 
+
+- The client won't be part of the development process due to the time discrepancy, however, communication will be constant through WhatsApp. 
+
+[More about our development process](./First%20increment/Documentation "Ir a nuestro proceso de desarrollo")
+
+[Our contribution tracker](./First%20increment/Artifacts/Contribution%20tracker "Ir al tracker")
+
+[Encoding standard](./Encoding%20standard.md "Revisa nuestro estandar de codificación")
 
 ## Binnacle
 
@@ -43,3 +54,9 @@ Our project intends that the tasks of the Department of Financial and Material R
 > - [March 7th 2022](./First%20increment/Binnacles/7%20mar%202022.md "Click Aquí")
 > - [March 9th 2022](./First%20increment/Binnacles/9%20mar%202022.md "Click Aquí")
 > - [March 10th 2022](./First%20increment/Binnacles/10%20mar%202022.md "Click Aquí")
+
+### Primera entrega:
+
+- [Diapositiva](./First%20increment/Artifacts/Presentations/First%20Increment%20Presentation.pdf "Click Aquí")
+
+- [Presentación](https://www.youtube.com/watch?v=In6ozx0BwU4&ab_channel=AdjanyA "Click Aquí")
