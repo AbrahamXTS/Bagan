@@ -40,7 +40,7 @@ In search of managing progress and activities in an optimal way, the development
 
 [Our contribution tracker](./First%20increment/Artifacts/Contribution%20tracker "Ir al tracker")
 
-[Encoding standard](./Encoding%20standard.md "Revisa nuestro estandar de codificación")
+[Encoding standard](./First%20increment/Documentation/Encoding%20standard.md "Revisa nuestro estandar de codificación")
 
 ## Binnacle
 
