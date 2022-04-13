@@ -1,0 +1,16 @@
+{
+  "name": "bagan",
+  "version": "1.0.0",
+  "description": "Esto es un proyecto para la materia de programación estructurada :D",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/main.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
