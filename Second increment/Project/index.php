@@ -6,6 +6,8 @@
 		<link href="../dist/output.css" rel="stylesheet" />
 	</head>
 	<body>
-		<h1 class="text-3xl font-bold underline">Hello world!</h1>
+		<div class="container">
+			<img src="./img/logo.png" alt="Logo" >
+		</div>
 	</body>
 </html>
