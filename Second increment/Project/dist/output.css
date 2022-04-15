@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
 /*
 ! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com
 */
@@ -423,7 +425,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-*, ::before, ::after {
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+*, ::before, ::after{
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -468,54 +474,223 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.container {
+.container{
   width: 100%;
 }
 
-@media (min-width: 640px) {
-  .container {
+@media (min-width: 640px){
+  .container{
     max-width: 640px;
   }
 }
 
-@media (min-width: 768px) {
-  .container {
+@media (min-width: 768px){
+  .container{
     max-width: 768px;
   }
 }
 
-@media (min-width: 1024px) {
-  .container {
+@media (min-width: 1024px){
+  .container{
     max-width: 1024px;
   }
 }
 
-@media (min-width: 1280px) {
-  .container {
+@media (min-width: 1280px){
+  .container{
     max-width: 1280px;
   }
 }
 
-@media (min-width: 1536px) {
-  .container {
+@media (min-width: 1536px){
+  .container{
     max-width: 1536px;
   }
 }
 
-.mx-auto {
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.left-3{
+  left: 0.75rem;
+}
+
+.top-2\/4{
+  top: 50%;
+}
+
+.mx-auto{
   margin-left: auto;
   margin-right: auto;
 }
 
-.h-56 {
-  height: 14rem;
+.my-7{
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
 }
 
-.w-56 {
-  width: 14rem;
+.mx-5{
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
-.text-rojo {
+.my-3{
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.mt-5{
+  margin-top: 1.25rem;
+}
+
+.mt-16{
+  margin-top: 4rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.w-24{
+  width: 6rem;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.-translate-y-2\/4{
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.rounded-xl{
+  border-radius: 0.75rem;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
+}
+
+.border-2{
+  border-width: 2px;
+}
+
+.border-gris{
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
+.bg-rojo{
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 48 49 / var(--tw-bg-opacity));
+}
+
+.p-3{
+  padding: 0.75rem;
+}
+
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.pl-12{
+  padding-left: 3rem;
+}
+
+.pr-4{
+  padding-right: 1rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.text-rojo{
   --tw-text-opacity: 1;
   color: rgb(212 48 49 / var(--tw-text-opacity));
+}
+
+.text-\[white\]{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.placeholder-texto::-moz-placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgb(170 170 170 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-texto:-ms-input-placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgb(170 170 170 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-texto::placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgb(170 170 170 / var(--tw-placeholder-opacity));
+}
+
+@media (min-width: 768px){
+  .md\:mt-12{
+    margin-top: 3rem;
+  }
+
+  .md\:h-36{
+    height: 9rem;
+  }
+
+  .md\:w-36{
+    width: 9rem;
+  }
+
+  .md\:text-right{
+    text-align: right;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:w-1\/2{
+    width: 50%;
+  }
 }
