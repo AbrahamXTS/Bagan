@@ -14,43 +14,43 @@
 	<h1 class="text-center uppercase text-[27px] font-extrabold py-8">Resumen mensual</h1>
 	
 	<form class="flex justify-center">
-		<input type="search" placeholder="Escriba el nombre o la clave del artículo ..." class="h-[58px] w-[672px] text-texto rounded-l-[10px] indent-5">
+		<input type="search" placeholder="Escriba el nombre o la clave del artículo ..." class="h-[58px] w-9/12 md:w-[672px] text-texto rounded-l-[10px] indent-5">
 
 		<button type="submit "class="bg-rojo h-[58px] w-[87px] rounded-r-[10px] flex items-center justify-center">
 			<img src="img/search.png" alt="buscar" class="h-[41px]">
 		</button>
 	</form>
 
-	<div class="drop-shadow-xl  mx-auto my-8 rounded-md bg-blanco w-[760px] h-[360px] border-slate-700">
+	<div class="drop-shadow-xl mx-auto my-8 rounded-md bg-blanco w-11/12 md:w-[760px] h-auto border-slate-700">
 		<li class="list-none pl-[30px] pt-[1rem]">
 			<div class="flex items-center ">
 				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Nombre del artculo:</p> 
 				<p class="text-lg">Acido muriatico</p>
 			</div>
 
-			<div class="flex items-center ">
+			<div class="flex items-center">
 				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Número de partida:</p>
 				<p class="text-lg">21601</p>
 			</div>
 
-			<div class="flex items-center ">
+			<div class="flex items-center">
 				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Clave del artículo:</p>
 				<p class="text-lg">0271</p>
 			</div>
 
-			<div class="flex items-center ">
+			<div class="flex items-center">
 				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Tipo de unidad:</p>
 				<p class="text-lg">Litro</p>
 			</div>
 
-			<div class="flex items-center ">
+			<div class="flex items-center">
 				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Número de existencias:</p>
 				<p class="text-lg">2</p>
 			</div>
 			
 		</li>
 
-		<div class="flex items-center mt-[0.25rem] mx-[2rem] justify-between">
+		<div class="flex items-center mt-[0.25rem] pb-5 mx-[2rem] justify-between">
 			<p class="text-rojo font-bold uppercase text-lg">Entrada</p>
 
 			<div class="flex">
@@ -69,36 +69,36 @@
 
 	</div>
 
-	<div class="drop-shadow-xl mx-auto my-8 rounded-md bg-blanco w-[760px] h-[360px] border-slate-700">
+	<div class="drop-shadow-xl mx-auto my-8 rounded-md bg-blanco w-11/12 md:w-[760px] h-auto border-slate-700">
 		<li class="list-none pl-[30px] pt-[1rem]">
 			<div class="flex items-center ">
 				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Nombre del artculo:</p> 
 				<p class="text-lg">Acido muriatico</p>
 			</div>
 
-			<div class="flex items-center ">
+			<div class="flex items-center">
 				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Número de partida:</p>
 				<p class="text-lg">21601</p>
 			</div>
 
-			<div class="flex items-center ">
+			<div class="flex items-center">
 				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Clave del artículo:</p>
 				<p class="text-lg">0271</p>
 			</div>
 
-			<div class="flex items-center ">
+			<div class="flex items-center">
 				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Tipo de unidad:</p>
 				<p class="text-lg">Litro</p>
 			</div>
 
-			<div class="flex items-center ">
+			<div class="flex items-center">
 				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Número de existencias:</p>
 				<p class="text-lg">2</p>
 			</div>
 			
 		</li>
 
-		<div class="flex items-center mt-[0.25rem] mx-[2rem] justify-between">
+		<div class="flex items-center mt-[0.25rem] pb-5 mx-[2rem] justify-between">
 			<p class="text-rojo font-bold uppercase text-lg">Salida</p>
 
 			<div class="flex">
@@ -117,7 +117,7 @@
 
 	</div>
 
-
+	</div>
 
 </body>
 

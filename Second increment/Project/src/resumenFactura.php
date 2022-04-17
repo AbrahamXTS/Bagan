@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link href="../dist/output.css" rel="stylesheet" />
-</head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="../dist/output.css" rel="stylesheet" />
+	</head>
 
 <body class="bg-gris-claro">
 	<div class="px-10 bg-rojo w-full h-[72px] flex items-center sticky top-0 z-50 justify-between">
@@ -19,7 +19,7 @@
 
 	<h1 class="text-center uppercase text-[27px] font-extrabold py-8">Resumen de factura</h1>
 	
-	<div class="drop-shadow-xl  mx-auto rounded-md bg-blanco w-[760px] h-[306px] border-slate-700 mb-8">
+	<div class="drop-shadow-xl  mx-auto rounded-md bg-blanco w-11/12 md:w-[760px] h-auto border-slate-700 mb-8">
 		<li class="list-none pl-[30px] pt-[1rem]">
 			<div class="flex items-center ">
 				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Total de articulos:</p> 
@@ -32,24 +32,26 @@
 			</div>
 
 			<div class="flex items-center ">
-				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Tienda de procedencia</p>
+				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Tienda de procedencia:</p>
 				<p class="text-lg">Office Depot</p>
 			</div>
 
-			<div class="flex items-center ">
+			<div class="flex items-center">
 				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Número de factura:</p>
 				<p class="text-lg">10008000</p>
 			</div>
 			
 		</li>
+		<div class="flex justify-center pb-5 md:justify-end md:mr-10">
+			<button class="mt-[0.25rem] bg-azul w-11/12 md:w-[80px] h-[50px] flex items-center justify-center rounded-[3px]">
+				<img src="img/print.png" alt="imprimir">
+			</button>
+		</div>
 
-		<button class="ml-[650px] mt-[0.25rem] bg-azul w-[80px] h-[50px] flex items-center justify-center rounded-[3px]">
-			<img src="img/print.png" alt="imprimir">
-		</button>
 	</div>
 
-	<div class="drop-shadow-xl  mx-auto rounded-md bg-blanco w-[760px] h-[400px] border-slate-700 mb-8">
-		<li class="list-none pl-[30px] pt-[1rem]">
+	<div class="drop-shadow-xl  mx-auto rounded-md bg-blanco w-11/12 md:w-[760px] h-auto border-slate-700 mb-8">
+		<li class="list-none pl-[30px] py-[1rem]">
 			<div class="flex items-center ">
 				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Nombre del articulo</p> 
 				<p class="text-lg">Bicolor dixon</p>
