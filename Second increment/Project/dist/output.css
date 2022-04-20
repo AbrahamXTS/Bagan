@@ -560,8 +560,48 @@ html {
   margin-bottom: 1.5rem;
 }
 
-.mb-10{
-  margin-bottom: 2.5rem;
+.mb-9{
+  margin-bottom: 2.25rem;
+}
+
+.mt-14{
+  margin-top: 3.5rem;
+}
+
+.mb-14{
+  margin-bottom: 3.5rem;
+}
+
+.mb-16{
+  margin-bottom: 4rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.mt-9{
+  margin-top: 2.25rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
+.mt-12{
+  margin-top: 3rem;
+}
+
+.block{
+  display: block;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.inline{
+  display: inline;
 }
 
 .flex{
@@ -574,6 +614,18 @@ html {
 
 .w-full{
   width: 100%;
+}
+
+.w-auto{
+  width: auto;
+}
+
+.w-5{
+  width: 1.25rem;
+}
+
+.w-6{
+  width: 1.5rem;
 }
 
 .-translate-y-2\/4{
@@ -606,9 +658,19 @@ html {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
+.bg-fondo{
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+
 .bg-rojo{
   --tw-bg-opacity: 1;
   background-color: rgb(212 48 49 / var(--tw-bg-opacity));
+}
+
+.bg-\[white\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .p-3{
@@ -672,8 +734,12 @@ html {
 }
 
 @media (min-width: 768px){
-  .md\:mt-12{
-    margin-top: 3rem;
+  .md\:mt-10{
+    margin-top: 2.5rem;
+  }
+
+  .md\:mt-8{
+    margin-top: 2rem;
   }
 
   .md\:h-36{
@@ -682,6 +748,14 @@ html {
 
   .md\:w-36{
     width: 9rem;
+  }
+
+  .md\:justify-end{
+    justify-content: flex-end;
+  }
+
+  .md\:justify-center{
+    justify-content: center;
   }
 
   .md\:text-right{
