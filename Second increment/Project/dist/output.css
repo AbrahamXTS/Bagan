@@ -592,7 +592,7 @@ html {
 }
 
 .top-\[\]{
-  top: ;
+  top: px;
 }
 
 .top-\[3px\]{
@@ -672,7 +672,7 @@ html {
 }
 
 .right-\[\]{
-  right: ;
+  right: px;
 }
 
 .right-\[12p\]{
@@ -704,7 +704,7 @@ html {
 }
 
 .left-\[\]{
-  left: ;
+  left: px;
 }
 
 .left-\[80px\]{
@@ -855,6 +855,8 @@ html {
 
 .mr-10{
   margin-right: 2.5rem;
+}
+
 .my-7{
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
@@ -952,6 +954,8 @@ html {
 
 .h-\[50px\]{
   height: 50px;
+}
+
 .w-24{
   width: 6rem;
 }
@@ -974,6 +978,8 @@ html {
 
 .w-\[80px\]{
   width: 80px;
+}
+
 .w-auto{
   width: auto;
 }
@@ -1035,6 +1041,8 @@ html {
 .rounded-r-\[10px\]{
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
 .rounded-xl{
   border-radius: 0.75rem;
 }
@@ -1063,6 +1071,8 @@ html {
 }
 
 .bg-blanco{
+}
+
 .bg-\[white\]{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1139,6 +1149,8 @@ html {
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1265,7 +1277,7 @@ html {
 
 @media (min-width: 640px){
   .sm\:top-\[\]{
-    top: ;
+    top: px;
   }
 
   .sm\:top-\[90px\]{
@@ -1308,6 +1320,8 @@ html {
 
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
 .text-rojo{
   --tw-text-opacity: 1;
   color: rgb(212 48 49 / var(--tw-text-opacity));
@@ -1373,6 +1387,8 @@ html {
 
   .md\:pr-10{
     padding-right: 2.5rem;
+  }
+
   .md\:justify-center{
     justify-content: center;
   }
@@ -1386,4 +1402,5 @@ html {
   .xl\:w-1\/2{
     width: 50%;
   }
+}
 }
