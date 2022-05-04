@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Tabla de existencias</title>
-	<link href="../dist/output.css" rel="stylesheet" />
-</head>
+<?php require("../includes/cabecera.php"); ?>
 
 <body class="bg-gris-claro">
 	<div class="px-10 bg-rojo w-full h-[72px] flex items-center sticky top-0 z-50">
@@ -49,7 +42,6 @@
 			</li>
 			
 			<li class="flex items-center">
-
 				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Número de existencias:</p>
 				<p class="text-lg">2</p>
 			</li>

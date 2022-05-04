@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>CecatiApp | Resumen Mensual</title>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-	<link href="../dist/output.css" rel="stylesheet" />
-</head>
+<?php require("../includes/cabecera.php"); ?>
 
 <body class="bg-gris-claro">
 	<nav class="px-10 bg-rojo w-full h-[72px] flex items-center sticky top-0 z-50 ">
@@ -32,7 +24,7 @@
 		<div class="drop-shadow-xl mx-auto mb-8 rounded-md bg-blanco w-11/12 md:w-[760px] h-auto border-slate-700 py-5 px-8">
 			<ul>
 				<li class="flex items-center ">
-					<p class="uppercase font-extrabold mb-[13px] mr-2 text-lg">Nombre del artculo:</p> 
+					<p class="uppercase font-extrabold my-[13px] mr-2 text-lg">Nombre del artculo:</p> 
 					<p class="text-lg">Acido muriatico</p>
 				</li>
 	
@@ -82,7 +74,7 @@
 		<div class="drop-shadow-xl mx-auto mb-8 rounded-md bg-blanco w-11/12 md:w-[760px] h-auto border-slate-700 py-5 px-8">
 			<ul>
 				<li class="flex items-center">
-					<p class="uppercase font-extrabold mb-[13px] mr-2 text-lg">Nombre del artculo:</p> 
+					<p class="uppercase font-extrabold my-[13px] mr-2 text-lg">Nombre del artculo:</p> 
 					<p class="text-lg">Acido muriatico</p>
 				</li>
 	
