@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>CecatiApp | Factura</title>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-	<link href="../dist/output.css" rel="stylesheet" />
-</head>
+<?php require("../includes/cabecera.php"); ?>
 
 <body class="bg-gris-claro">
 	<nav class="px-10 bg-rojo w-full h-[72px] flex items-center sticky top-0 z-50 justify-between">
@@ -62,7 +54,7 @@
 		<div class="drop-shadow-xl  mx-auto rounded-md bg-blanco w-11/12 md:w-[760px] h-auto border-slate-700 py-5 px-8 mb-8">
 			<ul>
 				<li class="flex items-center ">
-					<p class="uppercase font-extrabold mr-[7px] mb-[13px] text-lg">Nombre del articulo</p> 
+					<p class="uppercase font-extrabold mr-[7px] my-[13px] text-lg">Nombre del articulo:</p> 
 					<p class="text-lg">Bicolor dixon</p>
 				</li>
 
