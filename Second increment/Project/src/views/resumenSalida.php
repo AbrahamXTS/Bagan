@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="../dist/output.css" rel="stylesheet" />
-	</head>
+<?php require("../includes/cabecera.php"); ?>
 
 <body class="bg-gris-claro">
-
 	<div class="px-10 bg-rojo w-full h-[72px] flex items-center sticky top-0 z-50 justify-between">
 		<button class="uppercase text-blanco font-extrabold text-lg">Cancelar</button>
 		<button class="flex uppercase text-blanco font-extrabold text-lg">
@@ -22,7 +15,6 @@
 	
 	<div class="drop-shadow-xl  mx-auto rounded-md bg-blanco w-11/12 md:w-[760px] h-auto border-slate-700 mb-8 pb-3">
 		<li class="list-none pl-[30px] pt-[1rem]">
-
 			<div class="flex items-center ">
 				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Total de articulos:</p> 
 				<p class="text-lg">9</p>
@@ -49,7 +41,6 @@
 					</svg>
 			</button>
 		</div>
-
 	</div>
 
 
@@ -83,7 +74,6 @@
 				<p class="uppercase font-extrabold pr-[7px] py-[13px] text-lg">Precio total:</p>
 				<p class="text-lg">$15.00</p>
 			</div>
-			
 		</li>
 	</div>
 </body>

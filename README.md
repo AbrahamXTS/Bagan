@@ -64,9 +64,14 @@ In search of managing progress and activities in an optimal way, the development
 > - [April 12th 2022](./Second%20increment/Binnacles/12%20april%202022.md "Click Aquí")
 > - [April 20th 2022](./Second%20increment/Binnacles/20%20april%202022.md "Click Aquí")
 
-
 ### Primera entrega:
 
 - [Diapositiva](./First%20increment/Artifacts/Presentations/First%20Increment%20Presentation.pdf "Click Aquí")
 
 - [Presentación](https://www.youtube.com/watch?v=In6ozx0BwU4&ab_channel=AdjanyA "Click Aquí")
+
+### Segunda entrega:
+
+- [Diapositiva](./Second%20increment/Artifacts/Presentations/Second%20Increment%20Presentation.pdf "Click Aquí")
+
+- [Presentación](https://www.youtube.com/watch?v=RrbG_Y--2xs&ab_channel=AdjanyA "Click Aquí")
