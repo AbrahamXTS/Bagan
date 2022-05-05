@@ -9,7 +9,6 @@
 	
 	<form class="flex justify-center">
 		<input type="search" placeholder="Escriba el nombre o la clave del artículo ..." class="outline-none h-[58px] w-9/12 md:w-[672px] text-texto rounded-l-[10px] indent-5">
-
 		<button type="submit "class="bg-rojo h-[58px] w-[87px] rounded-r-[10px] flex items-center justify-center">
 			<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
 				<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
