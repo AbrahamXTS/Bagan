@@ -66,6 +66,8 @@ Based on the MoSCow software requirements prioritization technique:
   - Starting No. 
   - Warehouse number
   - Unit type
+  - Inputs number for article 
+  - Outputs number for the article
   - Number of units in stock
   - Last unit cost per item
   - Average cost per item

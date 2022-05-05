@@ -1,0 +1,33 @@
+{
+    "name": "abrah/project",
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abrah\\Project\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abraham Espinosa",
+            "email": "abrahamespinosa3132@gmail.com"
+        },
+        {
+            "name": "Adjany Aguilar",
+            "email": "a@gmail.com"
+        },
+        {
+            "name": "Alejandro Medina",
+            "email": "a@gmail.com"
+        },
+        {
+            "name": "Cristian Pan",
+            "email": "a@gmail.com"
+        },
+        {
+            "name": "Alvaro Xool",
+            "email": "a@gmail.com"
+        }
+    ]
+}
