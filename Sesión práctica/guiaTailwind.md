@@ -11,7 +11,7 @@ Guía para la sesión práctica del equipo Bagan explicado con peras y manzanas 
 
 <img src="img/vistaTerminada.png">
 
-#### ¡IMPORTANTE!
+## ¡IMPORTANTE!
 
 Antes de comenzar es necesario diferenciar dos conceptos que suelen confundirse con regularidad ya que los estaremos utilizando con frecuencia durante la sesión.
 
@@ -33,7 +33,8 @@ Antes de comenzar es necesario diferenciar dos conceptos que suelen confundirse 
 Para personalizar la estructura de nuestro página usaremos dos media queries; uno utilizara un padding top de 14 y un padding x de 3 y el otro solo necesita un padding x de 36 que será la mejor opción para dispositivos móviles.
 
 #### Resultado del elemento Body:
-<img src="img/Body.png" width="700">
+
+<body class="pt-10 lg:pt-14 px-3 lg:px-36">
 
 ### 2. Nav 
 
@@ -42,17 +43,31 @@ Dentro de la barra de navegación encontramos el nombre de la empresa y los elem
 **nav**: Centraremos todos los elementos y les daremos el espaciado correspondiente con las etiquetas **flex items-center justify-between**
 
 #### Resultado del elemento nav:
-<img src="img/navIndividual.png" width="700">
+
+<nav class="flex items-center justify-between">
 
 **p**: Al nombre de la empresa le daremos un tamaño de 2xl, estará en negritas y le pondremos un color índigo con las etiquetas **text-2xl  font-bold text-indigo-800**
 
 #### Resultado del elemento p:
-<img src="img/pNav.png" width="700">
+<p class="text-2xl text-indigo-800 font-bold">Vircares</p>
 
 **div**: Nuestra barra de navegación se ocultará cuando la pantalla sea para la de un dispositivo móvil y utilizaremos **hidden** para lograr esto; mientras que para pantallas mayores la posicionaremos de manera horizontal con un espaciado entre sí de 8 con las etiquetas **md:flex md:gap-8***
 
+#### Resultado del elemento div:
+<div class="hidden md:flex md:gap-8">
+
+
 #### Resultado final del Nav:
-<img src="img/Nav.png">
+<nav class="flex items-center justify-between">
+    <p class="text-2xl text-indigo-800 font-bold">Vircares</p>
+    <div class="hidden md:flex md:gap-8">
+      <a href="/">Inicio</a>
+      <a href="#">Encuentra tu doctor</a>
+      <a href="#">Nuestra app</a>
+      <a href="#">Testimonios</a>        
+      <a href="#">Acerca de nosotros</a>
+    </div>
+</nav>
 
 ### 3. Main
 
@@ -62,37 +77,67 @@ Cuando tenemos varios elementos que necesitamos modificar de manera tanto vertic
 
 
 #### Resultado del elemento main:
-<img src="img/main.png" width="700">
-
+<main class="mt-12 md:mt-28 grid grid-cols-1 md:grid-cols-2">
 
 **div**: Nuestro contenedor se compone del título, descripción y botón; necesitamos el estilo flex pero dirigido a las columnas para poder ordenarlos y alinearlos al centro con un espaciado de ocho y lo logramos con las etiquetas **flex flex-col gap-8 justify-center**.
 
 #### Resultado del elemento div:
-<img src="img/divBody.png" width="700">
+<div class="flex flex-col gap-8 justify-center">
 
 **h**: Nuestro título tendrá un tamaño de 36 px y estará en negritas y por ello utilizamos los estilos **text-4xl font-bold**.
 
 #### Resultado del elemento h1:
-<img src="img/h1.png" width="700">
+<h1 class="text-4xl font-bold leading-tight">Asistencia médica virtual para ti!</h1>
 
 
 **p**: Nuestro párrafo tendrá un tamaño de 18 px y será de color gris gracias a las etiquetas **text-lg text-gray-500**
 
 #### Resultado del elemento p:
-<img src="img/pMain.png" width="700">
+<p class="text-lg text-gray-500">
+        Vircares brinda atención médica progresiva y asequible
+        en dispositivos móviles y en línea
+        para todo el mundo.
+</p>
 
 **a**: Nuestro botón tendrá el texto color blanco y centrado; mientras que la estructura será de color indigo, con bordes de 24 px y con un padding personalizado y se logra con los siguientes estilos **text-white text-center bg-indigo-800 rounded-3xl py-2.5 md:w-40**
  
 #### Resultado del elemento a:
-<img src="img/aMain.png" width="700">
+<a href="#" class ="text-white text-center bg-indigo-800 rounded-3xl py-2.5 md:w-40">Consulta hoy</a>
 
 **img**: Nuestra imagen tendrá un padding top de 64 px **pt-16 md:pt-0**
 
 #### Resultado del elemento img:
-<img src="img/imgMain.png" width="700">
+<img src="https://abrahamespinosa.mx/img/healthcare.svg" class="pt-16 md:pt-0"/>
 
-#### Resultado Final:
-<img src="img/final.png">
+
+### Resultado Final:
+
+<body class="pt-10 lg:pt-14 px-3 lg:px-36">
+  <nav class="flex items-center justify-between">
+    <p class="text-2xl text-indigo-800 font-bold">Vircares</p>
+    <div class="hidden md:flex md:gap-8">
+      <a href="/">Inicio</a>
+      <a href="#">Encuentra tu doctor</a>
+      <a href="#">Nuestra app</a>
+      <a href="#">Testimonios</a>        
+      <a href="#">Acerca de nosotros</a>
+    </div>
+  </nav>
+  
+  <main class="mt-12 md:mt-28 grid grid-cols-1 md:grid-cols-2">
+    <div class="flex flex-col gap-8 justify-center">
+      <h1 class="text-4xl font-bold leading-tight">Asistencia médica virtual para ti!</h1>
+      <p class="text-lg text-gray-500">
+        Vircares brinda atención médica progresiva y asequible
+        en dispositivos móviles y en línea
+        para todo el mundo.
+      </p>
+      <a href="#" class ="text-white text-center bg-indigo-800 rounded-3xl py-2.5 md:w-40">Consulta hoy</a>
+    </div>
+    <img src="https://abrahamespinosa.mx/img/healthcare.svg" class="pt-16 md:pt-0"/>
+  </main>
+  </body>
+</html>
 
 
 
