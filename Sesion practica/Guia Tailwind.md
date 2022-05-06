@@ -90,7 +90,7 @@ Cuando tenemos varios elementos que necesitamos modificar de manera tanto vertic
 
 #### Resultado del elemento div:
 ```js
-<**div class="flex flex-col gap-8 justify-center"**>
+<div class="flex flex-col gap-8 justify-center">
 ```
 
 **h1**: Nuestro título tendrá un tamaño de 36 px y estará en negritas y por ello utilizamos los estilos **text-4xl font-bold**.
