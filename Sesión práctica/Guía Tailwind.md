@@ -36,7 +36,7 @@ Para personalizar la estructura de nuestro página usaremos dos media queries; u
 
 <**body class="pt-10 lg:pt-14 px-3 lg:px-36"**>
 
-<img src="img/body.png">
+<img src="img/Body.png" width="800">
 
 
 ### 2. Nav 
@@ -49,7 +49,7 @@ Dentro de la barra de navegación encontramos el nombre de la empresa y los elem
 
 <**nav class="flex items-center justify-between"**>
 
-<img src="img/navIndividual.png">
+<img src="img/navIndividual.png" width="800">
 
 
 **p**: Al nombre de la empresa le daremos un tamaño de 2xl, estará en negritas y le pondremos un color índigo con las etiquetas **text-2xl  font-bold text-indigo-800**
@@ -57,7 +57,7 @@ Dentro de la barra de navegación encontramos el nombre de la empresa y los elem
 #### Resultado del elemento p:
 <**p class="text-2xl text-indigo-800 font-bold">Vircares</p**>
 
-<img src="img/pNav.png">
+<img src="img/pNav.png" width="800">
 
 
 **div**: Nuestra barra de navegación se ocultará cuando la pantalla sea para la de un dispositivo móvil y utilizaremos **hidden** para lograr esto; mientras que para pantallas mayores la posicionaremos de manera horizontal con un espaciado entre sí de 8 con las etiquetas **md:flex md:gap-8***
@@ -65,7 +65,7 @@ Dentro de la barra de navegación encontramos el nombre de la empresa y los elem
 #### Resultado del elemento div:
 <**div class="hidden md:flex md:gap-8"**>
 
-<img src="img/divNav.png">
+<img src="img/divNav.png" width="800">
 
 
 #### Resultado final del Nav:
@@ -80,7 +80,7 @@ Dentro de la barra de navegación encontramos el nombre de la empresa y los elem
     </div**>
 <**/nav**>
 
-<img src="img/Nav.png">
+<img src="img/Nav.png" width="800">
 
 
 ### 3. Main
@@ -93,7 +93,7 @@ Cuando tenemos varios elementos que necesitamos modificar de manera tanto vertic
 #### Resultado del elemento main:
 <**main class="mt-12 md:mt-28 grid grid-cols-1 md:grid-cols-2"**>
 
-<img src="img/main.png">
+<img src="img/main.png" width="800">
 
 
 **div**: Nuestro contenedor se compone del título, descripción y botón; necesitamos el estilo flex pero dirigido a las columnas para poder ordenarlos y alinearlos al centro con un espaciado de ocho y lo logramos con las etiquetas **flex flex-col gap-8 justify-center**.
@@ -101,7 +101,7 @@ Cuando tenemos varios elementos que necesitamos modificar de manera tanto vertic
 #### Resultado del elemento div:
 <**div class="flex flex-col gap-8 justify-center"**>
 
-<img src="img/divBody.png">
+<img src="img/divBody.png" width="800">
 
 
 **h**: Nuestro título tendrá un tamaño de 36 px y estará en negritas y por ello utilizamos los estilos **text-4xl font-bold**.
@@ -109,7 +109,7 @@ Cuando tenemos varios elementos que necesitamos modificar de manera tanto vertic
 #### Resultado del elemento h1:
 <**h1 class="text-4xl font-bold leading-tight">Asistencia médica virtual para ti!</h1**>
 
-<img src="img/h1.png">
+<img src="img/h1.png" width="800">
 
 
 
@@ -122,14 +122,14 @@ Cuando tenemos varios elementos que necesitamos modificar de manera tanto vertic
         para todo el mundo.
 </p**>
 
-<img src="img/pMain.png">
+<img src="img/pMain.png" width="800">
 
 **a**: Nuestro botón tendrá el texto color blanco y centrado; mientras que la estructura será de color indigo, con bordes de 24 px y con un padding personalizado y se logra con los siguientes estilos **text-white text-center bg-indigo-800 rounded-3xl py-2.5 md:w-40**
  
 #### Resultado del elemento a:
 <**a href="#" class ="text-white text-center bg-indigo-800 rounded-3xl py-2.5 md:w-40">Consulta hoy</a**>
 
-<img src="img/aMain.png">
+<img src="img/aMain.png" width="800">
 
 **img**: Nuestra imagen tendrá un padding top de 64 px **pt-16 md:pt-0**
 
@@ -137,7 +137,7 @@ Cuando tenemos varios elementos que necesitamos modificar de manera tanto vertic
 
 <**img src="https://abrahamespinosa.mx/img/healthcare.svg" class="pt-16 md:pt-0"/**>
 
-<img src="img/imgMain.png">
+<img src="img/imgMain.png" width="800">
 
 
 ### Resultado Final:
