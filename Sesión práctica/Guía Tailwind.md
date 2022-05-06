@@ -167,7 +167,9 @@ Cuando tenemos varios elementos que necesitamos modificar de manera tanto vertic
     <**img src="https://abrahamespinosa.mx/img/healthcare.svg" class="pt-16 md:pt-0"/**>
   <**/main**>
   <**/body**>
-<img src="img/final.png">
+
+  <img src="img/final.png">
+
 
 
 
