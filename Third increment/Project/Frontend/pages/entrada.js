@@ -47,12 +47,6 @@ export default function entrada() {
             productos,
             totalEntrada
         };
-
-        // fetch("", {
-        //     method: "POST",
-        //     body: JSON.stringify(data), 
-        //     headers: {'Content-Type':'application/x-www-form-urlencoded'},       
-        // });
     }
 
     return (

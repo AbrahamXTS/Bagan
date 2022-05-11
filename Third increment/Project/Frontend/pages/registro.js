@@ -15,7 +15,6 @@ export default function registro() {
 		if (mail.toLowerCase().includes("@dgcft.sems.gob.mx") || mail == "") {
 			setErrorMail(false);
 		} else {
-            console.log("haciendo el cambio")
 			setErrorMail(true);
 		}
 	}
@@ -31,13 +30,23 @@ export default function registro() {
     const handleSubmit = (e) => {
         e.preventDefault();
         const data = Object.fromEntries(new FormData(e.target));
+        delete data.confirmacion;
 
         if (Object.values(data).includes("")) {
             alert("Todos los campos son obligatorios.");
         } else {
-            console.log(data);
-            // Aquí va el fetch a la BD.
-        }
+            const options = { method: "POST", body: JSON.stringify(data), headers: {'Content-Type':'application/json'}, }
+            fetch("https://cecati-restapi.herokuapp.com/register", options)
+            .then((res) => res.json())
+            .then((message) => { 
+                if (message == 204) {
+                    alert("Registro exitoso.");
+                    window.location.href = "/";
+                } else {
+                    alert(message);
+                }
+            }).catch((error) => alert(error));
+        }        
     }
 
     return (
