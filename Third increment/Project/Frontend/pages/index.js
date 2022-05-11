@@ -2,8 +2,6 @@ import Head from 'next/head'
 import Link from "next/link"
 import Image from 'next/image'
 import { useState } from 'react'
-import { ModalBorrar } from '../components/ModalBorrar';
-import { ModalGuardar } from '../components/ModalGuardar';
 
 export default function Home() {
 
@@ -32,8 +30,9 @@ export default function Home() {
 
 	return (
 		<>
-			<Head>
-				<title>Inicia sesión</title>
+            <Head>
+				<title>Entrada de articulos</title>
+                <link rel="shortcut icon" href="/img/logo.png" />
 				<meta name="description" content="Gestión de almacén | CECATI" />
 			</Head>
 

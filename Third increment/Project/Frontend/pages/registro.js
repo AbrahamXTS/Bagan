@@ -43,7 +43,8 @@ export default function registro() {
     return (
         <>
             <Head>
-				<title>Registrate</title>
+				<title>Entrada de articulos</title>
+                <link rel="shortcut icon" href="/img/logo.png" />
 				<meta name="description" content="Gestión de almacén | CECATI" />
 			</Head>
 
