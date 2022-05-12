@@ -5,14 +5,13 @@ import Navigation from '../components/Navigation';
 import InsertarProducto from '../components/InsertarProducto';
 import CallComponentButton from '../components/CallComponentButton';
 
-export default function entrada() {
+export default function entrada({partidas}) {
 
     const [procedencia, setProcedencia] = useState("");
     const [fecha, setFecha] = useState("");
     const [factura, setFactura] = useState(0);
     const [renderInsert, setRenderInsert] = useState(false);
     const [rendersCounter, setRendersCounter] = useState([1]);
-
     const {register, handleSubmit} = useForm();
 
     const handleFirstSubmit = (e) => {
@@ -40,13 +39,17 @@ export default function entrada() {
             totalEntrada += producto.cantidad * producto.precio
         });
 
-        const data = {
-            procedencia,
-            fecha, 
-            factura,
-            productos,
-            totalEntrada
-        };
+        const options = { method: "POST", body: JSON.stringify({procedencia, fecha, factura, productos, totalEntrada}), headers: {'Content-Type':'application/json'}}
+        fetch("https://cecati-restapi.herokuapp.com/formEntrada", options)
+        .then((res) => res.json())
+        .then((message) => { 
+            if (message == 204) {
+                alert("Registro exitoso.");
+                window.location.href = "/menu";
+            } else {
+                alert(message);
+            }
+        }).catch((error) => alert(error));
     }
 
     return (
@@ -91,7 +94,7 @@ export default function entrada() {
 
             {renderInsert && (
                     <form id="entrada" onSubmit={handleSubmit(handleProductsSubmit)}>
-                        {rendersCounter.map((_, index) => (<InsertarProducto key={index} index={index} register={register} />))}
+                        {rendersCounter.map((_, index) => (<InsertarProducto key={index} index={index} register={register} partidas={partidas} />))}
                     </form>
                 )
             }
@@ -99,4 +102,16 @@ export default function entrada() {
             {renderInsert && <CallComponentButton setFunction={callComponent} />}
         </>
     )
+}
+
+export async function getStaticProps() {
+
+    const res = await fetch("https://cecati-restapi.herokuapp.com/partidas");
+    const partidas = await res.json();
+
+    return {
+        props: {
+          partidas,
+        },
+    }
 }

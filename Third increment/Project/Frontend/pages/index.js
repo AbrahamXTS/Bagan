@@ -23,15 +23,23 @@ export default function Home() {
         if (Object.values(data).includes("")) {
             alert("Todos los campos son obligatorios.");
         } else {
-            console.log(data);
-            // Aquí va el fetch a la BD.
+			const options = { method: "POST", body: JSON.stringify(data), headers: {'Content-Type':'application/json'}, }
+            fetch("https://cecati-restapi.herokuapp.com/login", options)
+			.then((res) => res.json())
+			.then((message) => {
+				if (message == "Inicio de sesión correcto.") {
+					window.location = "/menu";
+				} else {
+					alert(message);
+				}
+			}).catch((e) => alert(e));
         }
     }
-
+ 
 	return (
 		<>
             <Head>
-				<title>Entrada de articulos</title>
+				<title>Login</title>
                 <link rel="shortcut icon" href="/img/logo.png" />
 				<meta name="description" content="Gestión de almacén | CECATI" />
 			</Head>
