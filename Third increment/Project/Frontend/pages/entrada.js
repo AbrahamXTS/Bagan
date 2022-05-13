@@ -40,7 +40,7 @@ export default function entrada({partidas}) {
         });
 
         const options = { method: "POST", body: JSON.stringify({procedencia, fecha, factura, productos, totalEntrada}), headers: {'Content-Type':'application/json'}}
-        fetch("https://cecati-restapi.herokuapp.com/formEntrada", options)
+        fetch("https://cecatirestapi-production.up.railway.app/entrada", options)
         .then((res) => res.json())
         .then((message) => { 
             if (message == 204) {
@@ -105,8 +105,7 @@ export default function entrada({partidas}) {
 }
 
 export async function getStaticProps() {
-
-    const res = await fetch("https://cecati-restapi.herokuapp.com/partidas");
+    const res = await fetch("https://cecatirestapi-production.up.railway.app/partidas");
     const partidas = await res.json();
 
     return {

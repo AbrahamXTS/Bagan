@@ -29,12 +29,12 @@ export default function InsertarProducto({index, register, partidas}) {
                     <label className="p-2 font-bold text-lg">TIPO DE UNIDAD</label>
                     <select title="unidad" name={`producto[${index}]unidad`} {...register(`productos.${index}.unidad`)} className="text-texto text-lg px-5 h-[58px] w-full rounded-[10px] border-2 border-gris">
                         <option hidden>Seleccione el tipo de unidad</option>
-                        <option value={""}>Mt</option>
                         <option value={"Caja"}>Caja</option>
                         <option value={"Cubeta"}>Cubeta</option>
                         <option value={"Galon"}>Galon</option>
                         <option value={"Kilogramo"}>Kilogramo</option>
                         <option value={"Litro"}>Litro</option>
+                        <option value={"Metro"}>Metro</option>
                         <option value={"Mililitro"}>Mililitro</option>
                         <option value={"Pieza"}>Pieza</option>
                     </select>

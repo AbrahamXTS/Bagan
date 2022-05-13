@@ -36,7 +36,7 @@ export default function registro() {
             alert("Todos los campos son obligatorios.");
         } else {
             const options = { method: "POST", body: JSON.stringify(data), headers: {'Content-Type':'application/json'}, }
-            fetch("https://cecati-restapi.herokuapp.com/register", options)
+            fetch("https://cecatirestapi-production.up.railway.app/register", options)
             .then((res) => res.json())
             .then((message) => { 
                 if (message == 204) {

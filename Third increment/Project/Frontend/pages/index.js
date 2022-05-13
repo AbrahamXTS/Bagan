@@ -24,10 +24,10 @@ export default function Home() {
             alert("Todos los campos son obligatorios.");
         } else {
 			const options = { method: "POST", body: JSON.stringify(data), headers: {'Content-Type':'application/json'}, }
-            fetch("https://cecati-restapi.herokuapp.com/login", options)
+            fetch("https://cecatirestapi-production.up.railway.app/login", options)
 			.then((res) => res.json())
 			.then((message) => {
-				if (message == "Inicio de sesión correcto.") {
+				if (message == 204) {
 					window.location = "/menu";
 				} else {
 					alert(message);
