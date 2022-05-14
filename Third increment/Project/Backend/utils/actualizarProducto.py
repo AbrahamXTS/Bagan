@@ -1,11 +1,12 @@
 from models.tables import productos
 
-def actualizarProducto(producto, db): 
-    cantidadAnterior = db.execute("SELECT cantidad FROM producto WHERE clave_articulo = clave_articulo",{"clave_articulo":producto.clave}).first()
+def actualizarProductoEntrada(producto, db): 
     
-    cantidadActual = cantidadAnterior[0] + producto.cantidad
+    cantidadAnterior = db.execute(productos.select().where(productos.c.clave_articulo == producto.clave)).first()
+    
+    cantidadActual = cantidadAnterior['cantidad'] + producto.cantidad
 
-    resultado = db.execute(productos.update().values(cantidad = cantidadActual).where(productos.c.clave_articulo == producto.clave)).first()
+    resultado = db.execute(productos.update().values(cantidad = cantidadActual).where(productos.c.clave_articulo == producto.clave))
     
     if resultado: 
         message = "Producto actualizado"
@@ -13,3 +14,9 @@ def actualizarProducto(producto, db):
         message = "No se pudo actualizar el producto"
     
     print(resultado)
+
+def actualizarProductoSalida(claveProducto, cantidadEntregada, cantidadExistente, db):
+    
+    nuevaCantidad = cantidadExistente - cantidadEntregada
+    
+    resultado = db.execute(productos.update().values(cantidad = nuevaCantidad).where(productos.c.clave_articulo == claveProducto))

@@ -14,3 +14,7 @@ productos = Table('producto', meta, autoload = True, autoload_with=engine)
 vale_entrada = Table('vale_entrada', meta, autoload = True, autoload_with=engine)
 
 lista_vales_entrada = Table('lista_vales_entrada',meta, autoload = True, autoload_with=engine)
+
+vale_salida = Table('vale_salida', meta, autoload = True, autoload_with=engine)
+
+lista_vales_salida = Table('lista_vales_salida', meta, autoload = True, autoload_with=engine)
