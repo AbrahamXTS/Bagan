@@ -23,15 +23,24 @@ export default function Home() {
         if (Object.values(data).includes("")) {
             alert("Todos los campos son obligatorios.");
         } else {
-            console.log(data);
-            // Aquí va el fetch a la BD.
+			const options = { method: "POST", body: JSON.stringify(data), headers: {'Content-Type':'application/json'}, }
+            fetch("https://cecatirestapi-production.up.railway.app/login", options)
+			.then((res) => res.json())
+			.then((message) => {
+				if (message == 204) {
+					window.location = "/menu";
+				} else {
+					alert(message);
+				}
+			}).catch((e) => alert(e));
         }
     }
-
+ 
 	return (
 		<>
-			<Head>
-				<title>Inicia sesión</title>
+            <Head>
+				<title>Login</title>
+                <link rel="shortcut icon" href="/img/logo.png" />
 				<meta name="description" content="Gestión de almacén | CECATI" />
 			</Head>
 
@@ -59,7 +68,7 @@ export default function Home() {
 						<input type="password" name="contrasena" placeholder="Contraseña" className="w-full rounded-xl border-2 border-gris py-3 pl-12 pr-4 my-3 placeholder-texto" />
 						<svg className="absolute left-3 top-2/4 -translate-y-2/4" width="30" height="30" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#D43031" fill="none" strokeLinecap="round" strokeLinejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none" /> <circle cx="8" cy="15" r="4" /> <line x1="10.85" y1="12.15" x2="19" y2="4" /> <line x1="18" y1="5" x2="20" y2="7" /> <line x1="15" y1="8" x2="17" y2="10" /> </svg>
 					</div>
-					<button disabled={true} className="text-rojo text-center mt-3 md:text-right">¿Olvidaste tu contraseña?</button>
+					<button type="button" disabled={true} className="text-rojo text-center mt-3 md:text-right">¿Olvidaste tu contraseña?</button>
 					<input type="submit" className="rounded-lg p-3 bg-rojo cursor-pointer mt-16 mb-6 text-[white]" value="INICIAR SESIÓN" />
 					<Link href="/registro"><a className="text-center text-rojo mb-9">Registrar nueva cuenta</a></Link>
 				</form>
