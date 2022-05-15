@@ -16,7 +16,7 @@ export default function InsertarProducto({index, register, partidas}) {
                 </div>
                 <div className="flex flex-col md:col-start-1 md:col-end-3 my-[10px]">
                     <label className="p-2 font-bold text-lg">CLAVE DEL ARTICULO</label>
-                    <input required={true} name={`producto[${index}]clave`} {...register(`productos.${index}.clave`)} type="number" placeholder="Digite la clave del articulo" className="text-texto text-lg px-5 h-[58px] w-full rounded-[10px] border-2 border-gris" />
+                    <input required={true} name={`producto[${index}]clave`} {...register(`productos.${index}.clave`, {valueAsNumber: true,})} type="number" placeholder="Digite la clave del articulo" className="text-texto text-lg px-5 h-[58px] w-full rounded-[10px] border-2 border-gris" />
                 </div>
                 <div className="flex flex-col my-[10px] md:mt-0">
                     <label className="p-2 font-bold text-lg">NÚMERO DE ALMACÉN</label>
@@ -41,11 +41,11 @@ export default function InsertarProducto({index, register, partidas}) {
                 </div>
                 <div className="flex flex-col my-[10px] md:mt-0">
                     <label className="p-2 font-bold text-lg">CANTIDAD DE ARTICULOS</label>
-                    <input required={true} name={`producto[${index}]cantidad`} {...register(`productos.${index}.cantidad`)} type="number" placeholder="Digite la cantidad de articulos" className="text-texto text-lg px-5 h-[58px] w-full rounded-[10px] border-2 border-gris" />
+                    <input required={true} name={`producto[${index}]cantidad`} {...register(`productos.${index}.cantidad`, {valueAsNumber: true,})} type="number" placeholder="Digite la cantidad de articulos" className="text-texto text-lg px-5 h-[58px] w-full rounded-[10px] border-2 border-gris" />
                 </div>
                 <div className="flex flex-col my-[10px] md:mt-0">
                     <label className="p-2 font-bold text-lg">PRECIO UNITARIO</label>
-                    <input required={true} name={`producto[${index}]precio`} {...register(`productos.${index}.precio`)} type="number" step="any" placeholder="Digite el precio del artículo" className="text-texto text-lg px-5 h-[58px] w-full rounded-[10px] border-2 border-gris" />
+                    <input required={true} name={`producto[${index}]precio`} {...register(`productos.${index}.precio`, {valueAsNumber: true,})} type="number" step="any" placeholder="Digite el precio del artículo" className="text-texto text-lg px-5 h-[58px] w-full rounded-[10px] border-2 border-gris" />
                 </div>
             </div>
         </article>
