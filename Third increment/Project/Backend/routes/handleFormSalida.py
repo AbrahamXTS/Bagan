@@ -4,23 +4,18 @@ from config.db import engine
 from models.tables import vale_salida, lista_vales_salida
 from utils.actualizarProducto import actualizarProductoSalida
 from utils.obtenerCantidadExistente import obtenerCantidadExistente
-from schemas.formSalida import FormSalida
-
+from schemas.FormSalida import FormSalida
 
 formSalida = APIRouter()
 
-@formSalida.post('/formSalida')
+@formSalida.post('/salida')
 def llenarFormulario(form:FormSalida):
     conexion = engine.connect()
-    datoSalida = {'id_solicitante': form.solicitante, 'fecha':form.fecha, 'total_salida':form.totalSalida}
-    
-    listaProductos = form.productos
-    
-    #Retorna el id generado al llenar la tabla 'vale_salida'
-    idValeSalida = llenarValeSalida(datoSalida, conexion)
 
-  
-    for producto in listaProductos:
+    datoSalida = {'id_solicitante': form.solicitante, 'fecha':form.fecha, 'total_salida':form.totalSalida}    
+    idValeSalida = llenarValeSalida(datoSalida, conexion) #Retorna el id generado al llenar la tabla 'vale_salida'
+
+    for producto in form.productos:
         
         cantidadExistente = obtenerCantidadExistente(producto.clave, conexion)   
          
@@ -36,6 +31,7 @@ def llenarFormulario(form:FormSalida):
 
 def llenarValeSalida(datoSalida, db):
     resultado = db.execute(vale_salida.insert().values(datoSalida))
+    
     return resultado.lastrowid
     
 def llenarListaSalida(idValeSalida, cantidad, claveProducto, precio, db): 

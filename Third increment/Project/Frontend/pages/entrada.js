@@ -33,9 +33,6 @@ export default function entrada({partidas}) {
         let totalEntrada = 0;
 
         productos.forEach((producto) => {
-            producto.clave = Number(producto.clave);
-            producto.precio = Number(producto.precio);
-            producto.cantidad = Number(producto.cantidad);
             totalEntrada += producto.cantidad * producto.precio
         });
 

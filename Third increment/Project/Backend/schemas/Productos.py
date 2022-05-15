@@ -9,7 +9,6 @@ class ProductosEntrada(BaseModel):
     precio: float
     cantidad: int 
 
-
 class ProductosSalida(BaseModel):
     clave: int 
     precio: float

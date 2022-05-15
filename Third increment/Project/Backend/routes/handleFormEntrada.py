@@ -1,9 +1,9 @@
 from fastapi import APIRouter
 from config.db import engine
-from schemas.formEntrada import FormEntrada
-from utils.actualizarProducto import actualizarProductoEntrada
+from schemas.FormEntrada import FormEntrada
 from utils.crearProducto import crearProducto
 from utils.verificarProducto import verificarProducto
+from utils.actualizarProducto import actualizarProductoEntrada
 from models.tables import vale_entrada, lista_vales_entrada, productos
 
 formEntrada = APIRouter()
@@ -25,7 +25,6 @@ def llenarFormulario(form:FormEntrada):
             actualizarProductoEntrada(producto, conexion)
         else:
             crearProducto(producto, conexion)
-        # Error en este punto: Al actualizar archivo, no inserta en la lista de entrada por - Duplicate entry '2' for key 'vale_entrada.PRIMARY
         llenarListaEntrada(datoEntrada["no_factura"], producto.cantidad, producto.clave, producto.precio, conexion)
         
     conexion.close()
@@ -42,7 +41,7 @@ def llenarValeEntrada(datoEntrada, db):
     print(message)
 
 def llenarListaEntrada(factura, cantidad, claveArticulo, precio, db): 
-    listaValeEntrada = {"factura": factura, "clave_articulo": claveArticulo, "cantidad_entrada": cantidad, "precio_unitario": precio}
+    listaValeEntrada = {"factura": factura, "articulo": claveArticulo, "cantidad_entrada": cantidad, "precio_unitario": precio}
     
     resultado = db.execute(lista_vales_entrada.insert().values(listaValeEntrada))
     
