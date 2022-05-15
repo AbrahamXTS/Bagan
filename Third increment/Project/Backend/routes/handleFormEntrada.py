@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from config.db import engine
 from schemas.formEntrada import FormEntrada
-from utils.actualizarProducto import actualizarProducto
+from utils.actualizarProducto import actualizarProductoEntrada
 from utils.crearProducto import crearProducto
 from utils.verificarProducto import verificarProducto
 from models.tables import vale_entrada, lista_vales_entrada, productos
@@ -22,7 +22,7 @@ def llenarFormulario(form:FormEntrada):
     
     for producto in form.productos:
         if verificarProducto(producto.clave, conexion) == 1: 
-            actualizarProducto(producto, conexion)
+            actualizarProductoEntrada(producto, conexion)
         else:
             crearProducto(producto, conexion)
         # Error en este punto: Al actualizar archivo, no inserta en la lista de entrada por - Duplicate entry '2' for key 'vale_entrada.PRIMARY
