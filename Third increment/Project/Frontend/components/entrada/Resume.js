@@ -1,7 +1,5 @@
 export default function Resume({datos}) {
 
-	console.log(datos)
-
   	return (
 		<>
 			<header className="py-8">
@@ -37,8 +35,8 @@ export default function Resume({datos}) {
 				</div>
 			</div>
 
-			{datos.productos.map((producto) => (
-				<div className="drop-shadow-xl mx-auto my-8 rounded-md bg-blanco w-11/12 md:w-[760px] h-auto border-slate-700 px-4 md:px-8 py-8">
+			{datos.productos.map((producto, index) => (
+				<div key={index} className="drop-shadow-xl mx-auto my-8 rounded-md bg-blanco w-11/12 md:w-[760px] h-auto border-slate-700 px-4 md:px-8 py-8">
 					<ul>
 						<li className="flex items-center">
 							<p className="uppercase font-bold mr-[7px] my-[13px] text-lg">Nombre del articulo:</p> 
