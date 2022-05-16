@@ -2,8 +2,9 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import Header from '../components/Header';
 
-export default function registro() {
+export default function Registro() {
 
     const [mail, setMail] = useState("");
     const [errorMail, setErrorMail] = useState(false);
@@ -51,11 +52,7 @@ export default function registro() {
 
     return (
         <>
-            <Head>
-				<title>Entrada de articulos</title>
-                <link rel="shortcut icon" href="/img/logo.png" />
-				<meta name="description" content="Gestión de almacén | CECATI" />
-			</Head>
+            <Header title="Registro" />
 
             <header className="container text-center mx-auto md:mt-8">
 		        <Image src="/img/logo.png" width={125} height={125} alt="Logo" className="mx-auto mt-5 w-24 md:w-36 md:h-36" />

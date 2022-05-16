@@ -2,16 +2,12 @@ import React from 'react'
 import Head from 'next/head'
 import Link from "next/link"
 import Image from 'next/image'
+import Header from '../components/Header'
 
-
-export default function menu() {
+export default function Menu() {
   return (
     <>
-      <Head>
-			  <title>Entrada de articulos</title>
-        <link rel="shortcut icon" href="/img/logo.png" />
-			  <meta name="description" content="Gestión de almacén | CECATI" />
-		  </Head>
+      <Header title="Menu" />
 
 		  <header className="container text-center mx-auto md:mt-10">
 			  <Image src="/img/logo.png" width={125} height={125} alt="Logo" className="mx-auto mt-5" />
