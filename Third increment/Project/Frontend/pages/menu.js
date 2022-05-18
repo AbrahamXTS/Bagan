@@ -19,7 +19,7 @@ export default function Menu() {
         <Link href="/entrada">Entrada de articulos</Link>
         <Link href="/salida">Salida de articulos</Link>
         <Link href="/existencias">Consultar existencias</Link>
-        <Link href="/articulos">Resumen general de un articulo</Link>
+        <Link href="/articulo">Resumen general de un articulo</Link>
         <Link href="/resumen">Resumen mensual</Link>
       </div>
     </>
