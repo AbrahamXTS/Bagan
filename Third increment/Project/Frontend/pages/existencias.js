@@ -88,4 +88,4 @@ export async function getServerSideProps() {
           existencias,
         }
     }
-  }
+}
