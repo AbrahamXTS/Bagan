@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Resume({datos, productosBD, areas}) {
 
-    const {area} = areas.find((area) => area.id == datos.solicitante)
+    const { area } = areas.find((area) => area.id == datos.solicitante)
 
      return (
         <>
@@ -43,10 +43,6 @@ export default function Resume({datos, productosBD, areas}) {
                                 <p className="uppercase font-bold pr-[7px] py-[13px] text-lg">Nombre del articulo:</p> 
                                 <p className="text-lg">{nombre_articulo}</p>
                             </div>
-                            {/* <div className="flex items-center ">
-                                <p className="uppercase font-bold pr-[7px] py-[13px] text-lg">Numero de partida:</p>
-                                <p className="text-lg">{}</p>
-                            </div> */}
                             <div className="flex items-center ">
                                 <p className="uppercase font-bold pr-[7px] py-[13px] text-lg">Clave del articulo:</p>
                                 <p className="text-lg">{producto.clave}</p>
