@@ -26,7 +26,7 @@ app.include_router(productos)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000","http://localhost:8080"],
+    allow_origins=["http://localhost:3000","https://abraham-espinosa-09.netlify.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

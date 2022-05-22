@@ -5,6 +5,6 @@ from schemas.Productos import ProductosEntrada
 class FormEntrada(BaseModel):
     procedencia: str
     fecha: str
-    factura: int
+    factura: str
     totalEntrada: float
     productos: List[ProductosEntrada]
