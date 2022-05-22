@@ -2,12 +2,11 @@ import Header from "../components/Header";
 import { useState, useEffect } from "react";
 import Buscador from "../components/Buscador";
 import Navigation from "../components/Navigation";
-import { filterResults } from "../utils/filterResults"
+import { filterResults } from "../utils/filterResults";
 import ArticuloItem from "../components/resumen/ArticuloItem";
 
 export default function Resumen({ articulos }) {
-
-  const [busqueda, setBusqueda] = useState("");
+	const [busqueda, setBusqueda] = useState("");
 	const [articulosFiltrados, setArticulosFiltrados] = useState(articulos);
 
 	useEffect(() => {
@@ -26,31 +25,35 @@ export default function Resumen({ articulos }) {
 
 			<Buscador setBusqueda={setBusqueda} />
 
-			{articulosFiltrados.map((articulo, index) => {
-				const {
-					tipo,
-					fecha,
-					clave,
-					nombre,
-					unidad,
-					partida,
-					cantidadEntrada,
-					cantidadSalida,
-				} = articulo;
-
-				return (
-					<ArticuloItem
-						tipo={tipo}
-						fecha={fecha}
-						clave={clave}
-						nombre={nombre}
-						unidad={unidad}
-						partida={partida}
-						cantidadEntrada={cantidadEntrada}
-						cantidadSalida={cantidadSalida}
-					/>
-				);
-			})}
+			{articulosFiltrados.map(
+				(
+					{
+						tipo,
+						fecha,
+						clave,
+						nombre,
+						unidad,
+						partida,
+						cantidadEntrada,
+						cantidadSalida,
+					},
+					index
+				) => {
+					return (
+						<ArticuloItem
+							key={index}
+							tipo={tipo}
+							fecha={fecha}
+							clave={clave}
+							nombre={nombre}
+							unidad={unidad}
+							partida={partida}
+							cantidadEntrada={cantidadEntrada}
+							cantidadSalida={cantidadSalida}
+						/>
+					);
+				}
+			)}
 		</>
 	);
 }

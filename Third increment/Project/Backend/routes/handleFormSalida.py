@@ -35,6 +35,6 @@ def llenarValeSalida(datoSalida, db):
     return resultado.lastrowid
     
 def llenarListaSalida(idValeSalida, cantidad, claveProducto, precio, db): 
-    listaValeSalida = {"id_vale_salida": idValeSalida,"cantidad_salida":cantidad,"clave_articulo":claveProducto, "precio_unitario":precio}
+    listaValeSalida = {"id_vale_salida": idValeSalida,"cantidad_salida":cantidad,"articulo":claveProducto, "precio_unitario":precio}
     
     resultado = db.execute(lista_vales_salida.insert().values(listaValeSalida))

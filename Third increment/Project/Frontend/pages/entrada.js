@@ -2,11 +2,11 @@ import Link from 'next/link';
 import { useState } from 'react'
 import { useForm } from "react-hook-form";
 import Header from '../components/Header';
-import Navigation from '../components/Navigation';
-import CallComponentButton from '../components/CallComponentButton';
-import PreEntrada from '../components/entrada/PreEntrada';
-import InsertarProducto from '../components/entrada/InsertarProducto';
 import Resume from '../components/entrada/Resume';
+import Navigation from '../components/Navigation';
+import PreEntrada from '../components/entrada/PreEntrada';
+import CallComponentButton from '../components/CallComponentButton';
+import InsertarProducto from '../components/entrada/InsertarProducto';
 
 export default function Entrada({partidas}) {
 
@@ -87,7 +87,10 @@ export default function Entrada({partidas}) {
  
             {renderInsert && <form id="entrada" onSubmit={handleSubmit(handleProductsSubmit)}>{rendersCounter.map((_, index) => (<InsertarProducto key={index} index={index} register={register} partidas={partidas} />))}</form>}
             
-            {renderInsert && <CallComponentButton setFunction={callComponent} />}
+            {renderInsert && 
+                (<CallComponentButton setFunction={callComponent}>
+                    <svg width="60" height="60" viewBox="0 0 85 85" fill="none"> <circle cx="42.5" cy="42.5" r="42.5" fill="#D43031" /> <path d="M57.8002 42.925H27.2002M42.5002 27.2V58.65V27.2Z" stroke="#EEEEEE" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" /> </svg>
+                </CallComponentButton>)}
 
             {renderResume && <Resume datos={data} />}
         </>
