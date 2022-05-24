@@ -78,7 +78,6 @@ In search of managing progress and activities in an optimal way, the development
 ### Third Increment 
 > - [April 29th 2022](./Third%20increment/Binnacles/29%20april%202022.md "Click Aquí")
 > - [May 2nd 2022](./Third%20increment/Binnacles/2%20may%202022.md "Click Aquí")
-> - [May 3rd 2022](./Third%20increment/Binnacles/3%20may%202022.md "Click Aquí")
 > - [May 4th 2022](./Third%20increment/Binnacles/4%20may%202022.md "Click Aquí")
 > - [May 8th 2022](./Third%20increment/Binnacles/8%20may%202022.md "Click Aquí")
 > - [May 9th 2022](./Third%20increment/Binnacles/9%20may%202022.md "Click Aquí")
@@ -107,7 +106,7 @@ In search of managing progress and activities in an optimal way, the development
 
 ### Final product:
 
-- [Demo]("./Second%20increment/Artifacts/Presentations/Demo.mp4" "Click Aquí")
+- [Demo](https://youtu.be/9rTvhqtiW0Y "Click Aquí")
 
 - [Project - Frontend](https://cecati.netlify.app "Click Aquí")
 
