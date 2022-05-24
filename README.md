@@ -57,12 +57,23 @@ In search of managing progress and activities in an optimal way, the development
 
 ### Second Increment 
 > - [March 23rd 2022](./Second%20increment/Binnacles/23%20march%202022.md "Click Aquí")
+> - [March 28th 2022](./Second%20increment/Binnacles/28%20april%202022.md "Click Aquí")
 > - [March 30th 2022](./Second%20increment/Binnacles/30%20mar%202022.md "Click Aquí")
 > - [March 31st 2022](./Second%20increment/Binnacles/31%20mar%202022.md "Click Aquí")
+> - [April 1st 2022](./Second%20increment/Binnacles/1%20april%202022.md "Click Aquí")
 > - [April 4th 2022](./Second%20increment/Binnacles/4%20april%202022.md "Click Aquí")
 > - [April 9th 2022](./Second%20increment/Binnacles/9%20april%202022.md "Click Aquí")
 > - [April 12th 2022](./Second%20increment/Binnacles/12%20april%202022.md "Click Aquí")
+> - [April 13th 2022](./Second%20increment/Binnacles/13%20april%202022.md "Click Aquí")
+> - [April 19th 2022](./Second%20increment/Binnacles/19%20april%202022.md "Click Aquí")
 > - [April 20th 2022](./Second%20increment/Binnacles/20%20april%202022.md "Click Aquí")
+> - [April 21th 2022](./Second%20increment/Binnacles/21%20april%202022.md "Click Aquí")
+
+### Third Increment 
+> - [May 8th 2022](./Third%20increment/Binnacles/8%20may%202022.md "Click Aquí")
+> - [May 9th 2022](./Third%20increment/Binnacles/9%20may%202022.md "Click Aquí")
+> - [May 10th 2022](./Third%20increment/Binnacles/10%20may%202022.md "Click Aquí")
+
 
 ### Third Increment 
 > - [April 29th 2022](./Third%20increment/Binnacles/29%20april%202022.md "Click Aquí")
