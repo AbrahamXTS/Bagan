@@ -75,14 +75,40 @@ In search of managing progress and activities in an optimal way, the development
 > - [May 10th 2022](./Third%20increment/Binnacles/10%20may%202022.md "Click Aquí")
 
 
-### Primera entrega:
+### Third Increment 
+> - [April 29th 2022](./Third%20increment/Binnacles/29%20april%202022.md "Click Aquí")
+> - [May 2nd 2022](./Third%20increment/Binnacles/2%20may%202022.md "Click Aquí")
+> - [May 3rd 2022](./Third%20increment/Binnacles/3%20may%202022.md "Click Aquí")
+> - [May 4th 2022](./Third%20increment/Binnacles/4%20may%202022.md "Click Aquí")
+> - [May 8th 2022](./Third%20increment/Binnacles/8%20may%202022.md "Click Aquí")
+> - [May 9th 2022](./Third%20increment/Binnacles/9%20may%202022.md "Click Aquí")
+> - [May 10th 2022](./Third%20increment/Binnacles/10%20may%202022.md "Click Aquí")
+> - [May 14th 2022](./Third%20increment/Binnacles/14%20may%202022.md "Click Aquí")
+> - [May 15th 2022](./Third%20increment/Binnacles/15%20may%202022.md "Click Aquí")
+> - [May 22th 2022](./Third%20increment/Binnacles/22%20may%202022.md "Click Aquí")
 
-- [Diapositiva](./First%20increment/Artifacts/Presentations/First%20Increment%20Presentation.pdf "Click Aquí")
+### First Increment:
 
-- [Presentación](https://www.youtube.com/watch?v=In6ozx0BwU4&ab_channel=AdjanyA "Click Aquí")
+- [Slide](./First%20increment/Artifacts/Presentations/First%20Increment%20Presentation.pdf "Click Aquí")
 
-### Segunda entrega:
+- [Presentation](https://www.youtube.com/watch?v=In6ozx0BwU4&ab_channel=AdjanyA "Click Aquí")
 
-- [Diapositiva](./Second%20increment/Artifacts/Presentations/Second%20Increment%20Presentation.pdf "Click Aquí")
+### Second Increment:
 
-- [Presentación](https://www.youtube.com/watch?v=RrbG_Y--2xs&ab_channel=AdjanyA "Click Aquí")
+- [Slide](./Second%20increment/Artifacts/Presentations/Second%20Increment%20Presentation.pdf "Click Aquí")
+
+- [Presentation](https://www.youtube.com/watch?v=RrbG_Y--2xs&ab_channel=AdjanyA "Click Aquí")
+
+### Third Increment:
+
+- [Slide](./Third%20increment/Artifacts/Presentations/Third%20Increment%20Presentation.pdf "Click Aquí")
+
+- [Presentation](https://youtu.be/UBBsSCezVG0 "Click Aquí")
+
+### Final product:
+
+- [Demo]("./Second%20increment/Artifacts/Presentations/Demo.mp4" "Click Aquí")
+
+- [Project - Frontend](https://cecati.netlify.app "Click Aquí")
+
+- [Project - Backend](https://cecatirestapi-production.up.railway.app/docs "Click Aquí")
