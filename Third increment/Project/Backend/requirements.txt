@@ -1,0 +1,6 @@
+fastapi~=0.77.1
+sqlalchemy~=1.4.36
+cryptography~=37.0.2
+pydantic~=1.9.0
+mysql~=0.0.3
+uvicorn~=0.17.6
